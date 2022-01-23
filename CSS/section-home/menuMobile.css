@@ -1,0 +1,72 @@
+.home-page .menuMobile {
+    display: none;
+}
+
+@media(max-width: 500px) {
+    
+    .menuMobile {
+        display: none;
+        background-color: var(--cor-principal);
+        height: auto;
+        width: 100vh;
+        position: relative;
+        margin-top: 159px;
+        border-bottom: 2px solid var(--cor-secundaria);
+    } 
+    
+    .menuMobile.show {
+        margin-top: 39px;
+        display: block;
+        position: fixed;
+        z-index: 1;
+        animation: bounceInDown;
+        animation-duration: 1s;
+        box-shadow: 0 90px 196px 77px #0e0e0e;
+    }
+
+
+    .menuMobile .navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menuMobile .navbar ul li {
+        display: flex;
+        height: 123px;
+        align-items: center;
+    }
+
+    .menuMobile .navbar ul li:last-of-type {
+        margin-bottom: 30px;
+    }
+
+
+    .menuMobile .navbar ul li a {
+        color: var(--cor-secundaria);
+        font-size: 23px;
+    }
+
+    .btnClosed {
+        background-color: var(--cor-principal);
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        outline: none;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+        position: absolute;
+        bottom: -27px;
+
+        border-bottom: 2px solid  var(--cor-secundaria);
+    }
+
+    .btnClosed::after {
+        content: 'x';
+        font-size: 45px;
+        color: var(--cor-secundaria);
+    }
+}

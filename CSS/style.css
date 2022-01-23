@@ -1,0 +1,27 @@
+@import "./formatting.css";
+
+@import "./section-home/homePage.css";
+@import "./section-home/header.css";
+@import "./section-home/perfil.css";
+@import "./section-home/listaHabilidades.css";
+@import "./section-home/icones.css";
+@import "./section-home/menuMobile.css";
+
+
+@import "./section-aboutMe/aboutMe.css";
+@import "./section-aboutMe/iconesRedeSocial.css";
+@import "./section-aboutMe/imagemIlustrativa.css";
+@import "./section-aboutMe/sectionAboutMe.css";
+@import "./section-aboutMe/hobbies.css";
+@import "./section-aboutMe/animationScroll.css";
+
+@import "./section-projects/projects.css";
+@import "./section-projects/project-one.css";
+@import "./section-projects/project-two.css";
+@import "./section-projects/project-three.css";
+@import "./section-projects/project-four.css";
+@import "./section-projects/project-five.css";
+@import "./section-projects/project-six.css";
+
+
+@import "./footer/end-style.css";

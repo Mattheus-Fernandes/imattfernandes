@@ -1,0 +1,41 @@
+.aboutMe  {
+    background-color: var(--cor-principal);
+    padding: 45px 0;  
+    
+    font-family: var(--font-family2);
+    color: var(--cor-secundaria);
+    font-size: 17px;
+
+    position: relative;
+
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    
+    grid-template-columns: 1fr 427px;
+    grid-template-rows: repeat(2, auto);
+
+    grid-template-areas: 
+    "a b"
+    "c c"
+    ;
+    
+}
+
+@media(max-width: 500px) {
+
+    .aboutMe {
+        width: 100%;
+    }
+
+    .container {
+        width: auto;
+        padding: 0 20px;
+        display: block;
+        letter-spacing: 1px;
+    }
+}

@@ -1,0 +1,12 @@
+.icon {
+    width:30px;
+    margin-top: 5px;
+}
+
+.icon.node {
+   width: 40px; 
+}
+
+.icon.css {
+    width: 25px;
+}

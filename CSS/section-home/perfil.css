@@ -1,0 +1,18 @@
+.home-page .square-profile .photoProfile {
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid rgb(181 238 19);    
+}
+
+.square-profile .name {
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    margin: 15px 0 -1px 0;
+    color: rgb(58 183 211); 
+}
+
+.square-profile .stack {
+    color: rgb(181 238 19);
+    font-size: 20px;
+    font-family: var(--font-family);
+}

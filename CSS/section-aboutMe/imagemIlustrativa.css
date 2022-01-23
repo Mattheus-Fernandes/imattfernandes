@@ -1,0 +1,31 @@
+.container .information img {
+    width: 128px;
+    margin: 20px 0 0 0;
+    
+}
+
+.container .id {
+    grid-area: b;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.container .id .puppet {
+    height: 366px;
+    width: 403px;
+}
+
+@media(max-width: 500px) {
+    .container .information img {
+        width: 148px;
+        margin: 30px 0;
+    }
+
+    .container .id .puppet {
+        display: none;
+    }
+
+}

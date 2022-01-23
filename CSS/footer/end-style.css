@@ -1,0 +1,17 @@
+.footer {
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    color: white;
+    margin-left: 5px;
+}
+
+.footer::before {
+    content: '©';
+    color: white;
+}

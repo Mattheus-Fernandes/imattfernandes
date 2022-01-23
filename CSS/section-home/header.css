@@ -1,0 +1,64 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--cor-principal);
+    width: 100%;
+    padding: 10px 40px;
+
+    position: fixed;
+    z-index: 2;
+    
+} 
+
+.header.other {
+    background-color: var(--cor-secundaria);
+}
+
+.header .navbar ul {
+    display: flex;
+}
+
+.header .navbar ul li {
+    padding: 0 20px;
+}
+
+.header .navbar ul li .section {
+    padding: 20px 0;
+    color: var(--cor-secundaria);
+    font-family: var(--font-family2);
+}
+
+.header .navbar ul li .section.otherColor {
+    color: var(--cor-principal);
+}
+
+.header .MF {
+    font-family: var(--font-family2);
+    font-size: 30px;
+    color: var(--cor-secundaria);
+}
+
+.menuHamburguer {
+    display: none;
+}
+
+@media(max-width: 500px) {
+    .menuHamburguer {
+        display: block;
+    }
+
+    .header .navbar ul {
+        display: none;
+    }
+
+    .header .menuHamburguer .line {
+        width: 35px;
+        height: 3px;
+        background-color: var(--cor-secundaria);
+        margin: 10px 0;
+    
+
+    }
+}

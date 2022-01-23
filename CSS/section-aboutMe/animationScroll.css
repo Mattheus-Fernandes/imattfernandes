@@ -1,0 +1,9 @@
+.animeScrollLeft {
+    animation: backInLeft;
+    animation-duration: 1s;
+}
+
+.animeScrollRight {
+    animation: backInRight;
+    animation-duration: 1s;
+}

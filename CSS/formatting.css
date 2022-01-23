@@ -1,0 +1,42 @@
+:root {
+    --cor-principal: #123e59;
+    --cor-secundaria: #a7e7fb;
+    --cor-terça: #1c273e;
+    --font-family: 'Nunito', sans-serif;
+    --font-family2: 'Roboto Mono', monospace;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+::selection {
+    background-color: var(--cor-terça);
+}
+
+::-webkit-scrollbar {
+    background: var(--cor-secundaria);
+    border-radius: 10px;
+}
+
+
+
+::-webkit-scrollbar-thumb {
+    background: var(--cor-principal);
+    border-radius: 10px;
+    height: 30px;
+}

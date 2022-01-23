@@ -1,0 +1,16 @@
+.social-network .navbar ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.social-icon {
+    width: 38px;
+    border-radius: 10px;
+}
+
+@media(max-width: 500px) {
+    .social-network {
+        margin-top: 30px;
+    }
+}

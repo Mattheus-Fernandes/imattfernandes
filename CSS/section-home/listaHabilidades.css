@@ -1,0 +1,76 @@
+.square-profile .skills {
+    font-size: 20px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    letter-spacing: 1px;
+    background: rgb(58 183 211);
+    color: rgb(4 4 4);
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;   
+}
+
+.square-profile .skills.animation-skill {
+    animation: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+} 
+
+.square-profile .skills:hover {
+    box-shadow: #3ab7d3 2px 1px 15px;
+}
+
+.square-profile .navbar {
+    margin-top: 30px;
+}
+
+.square-profile .navbar .all-skills {
+    display: none;
+   
+}
+
+.mostrar {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10px;
+    visibility: initial !important;
+    cursor: pointer;
+}
+
+.square-profile .navbar ul .li.animation-li {
+    animation: flipInY;
+    animation-duration: 1s; 
+}
+
+.square-profile .navbar ul .li .skill{
+    margin: 10px;
+    font-size: 12.4px;
+    font-family: var(--font-family2);
+    color: rgb(227 14 63);
+}
+
+.square-profile .navbar ul .li .skill:hover {
+    color: #e8dc5f;
+}
+
+@media(max-width: 500px) {
+    .square-profile .navbar .mostrar {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .square-profile .navbar .all-skills {
+        display: none;
+       
+    }
+
+    .square-profile .navbar ul .li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

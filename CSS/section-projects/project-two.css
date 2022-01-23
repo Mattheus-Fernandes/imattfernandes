@@ -1,0 +1,49 @@
+.project-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    font-family: var(--font-family);
+    font-weight: 900;
+}
+
+.project-two .mudarDepois {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.project-two a, p {
+    color: var(--cor-secundaria);
+    font-family: var(--font-family);
+    font-weight: 900;
+}
+
+
+.project-two .dp6-img {
+    width: 255px;
+    height: 130px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.project-two .link-code {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    align-self: flex-end;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.project-two .link-code-img {
+    width: 20px;
+    justify-content: flex-start;
+    margin-right: 5px;
+}
+
+.project-two .link-code p {
+    font-size: 14px;
+}
